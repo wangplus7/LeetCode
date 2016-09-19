@@ -25,7 +25,6 @@ public:
         }
         
         ListNode *result = l1;
-        ListNode *preL1 = l1;
 
         while (l1 != NULL && l2 != NULL) {
             l1->val = l1->val + l2->val;
@@ -39,14 +38,12 @@ public:
                 }
             }
             
-            preL1 = l1;
-            
             l1 = l1->next;
             l2 = l2->next;
         }
         
         if(l1 == NULL){
-            preL1->next = l2;
+            l1 = l2;
         }else{
             while(l1 && l1->val >= 10){
                 l1->val = l1->val % 10;
