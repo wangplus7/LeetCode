@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>001.TwoNum.xcscheme</key>
+		<key>001.TwoSum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>299DFDBD1D8FE202004578FC</key>
+		<key>299DFDD11D8FE534004578FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		299DFDC21D8FE202004578FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 299DFDC11D8FE202004578FC /* main.cpp */; };
+		299DFDD61D8FE534004578FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 299DFDD51D8FE534004578FC /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		299DFDBC1D8FE202004578FC /* CopyFiles */ = {
+		299DFDD01D8FE534004578FC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		299DFDBE1D8FE202004578FC /* 001.TwoNum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 001.TwoNum; sourceTree = BUILT_PRODUCTS_DIR; };
-		299DFDC11D8FE202004578FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		299DFDC81D8FE252004578FC /* solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		299DFDD21D8FE534004578FC /* 001.TwoSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 001.TwoSum; sourceTree = BUILT_PRODUCTS_DIR; };
+		299DFDD51D8FE534004578FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		299DFDDC1D8FE55A004578FC /* solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		299DFDBB1D8FE202004578FC /* Frameworks */ = {
+		299DFDCF1D8FE534004578FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,95 +39,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299DFDB51D8FE202004578FC = {
+		299DFDC91D8FE534004578FC = {
 			isa = PBXGroup;
 			children = (
-				299DFDC01D8FE202004578FC /* 001.TwoNum */,
-				299DFDBF1D8FE202004578FC /* Products */,
+				299DFDD41D8FE534004578FC /* 001.TwoSum */,
+				299DFDD31D8FE534004578FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		299DFDBF1D8FE202004578FC /* Products */ = {
+		299DFDD31D8FE534004578FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				299DFDBE1D8FE202004578FC /* 001.TwoNum */,
+				299DFDD21D8FE534004578FC /* 001.TwoSum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		299DFDC01D8FE202004578FC /* 001.TwoNum */ = {
+		299DFDD41D8FE534004578FC /* 001.TwoSum */ = {
 			isa = PBXGroup;
 			children = (
-				299DFDC11D8FE202004578FC /* main.cpp */,
-				299DFDC81D8FE252004578FC /* solution.h */,
+				299DFDD51D8FE534004578FC /* main.cpp */,
+				299DFDDC1D8FE55A004578FC /* solution.h */,
 			);
-			path = 001.TwoNum;
+			path = 001.TwoSum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		299DFDBD1D8FE202004578FC /* 001.TwoNum */ = {
+		299DFDD11D8FE534004578FC /* 001.TwoSum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 299DFDC51D8FE202004578FC /* Build configuration list for PBXNativeTarget "001.TwoNum" */;
+			buildConfigurationList = 299DFDD91D8FE534004578FC /* Build configuration list for PBXNativeTarget "001.TwoSum" */;
 			buildPhases = (
-				299DFDBA1D8FE202004578FC /* Sources */,
-				299DFDBB1D8FE202004578FC /* Frameworks */,
-				299DFDBC1D8FE202004578FC /* CopyFiles */,
+				299DFDCE1D8FE534004578FC /* Sources */,
+				299DFDCF1D8FE534004578FC /* Frameworks */,
+				299DFDD01D8FE534004578FC /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 001.TwoNum;
-			productName = 001.TwoNum;
-			productReference = 299DFDBE1D8FE202004578FC /* 001.TwoNum */;
+			name = 001.TwoSum;
+			productName = 001.TwoSum;
+			productReference = 299DFDD21D8FE534004578FC /* 001.TwoSum */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		299DFDB61D8FE202004578FC /* Project object */ = {
+		299DFDCA1D8FE534004578FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wjq;
 				TargetAttributes = {
-					299DFDBD1D8FE202004578FC = {
+					299DFDD11D8FE534004578FC = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 299DFDB91D8FE202004578FC /* Build configuration list for PBXProject "001.TwoNum" */;
+			buildConfigurationList = 299DFDCD1D8FE534004578FC /* Build configuration list for PBXProject "001.TwoSum" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 299DFDB51D8FE202004578FC;
-			productRefGroup = 299DFDBF1D8FE202004578FC /* Products */;
+			mainGroup = 299DFDC91D8FE534004578FC;
+			productRefGroup = 299DFDD31D8FE534004578FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				299DFDBD1D8FE202004578FC /* 001.TwoNum */,
+				299DFDD11D8FE534004578FC /* 001.TwoSum */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		299DFDBA1D8FE202004578FC /* Sources */ = {
+		299DFDCE1D8FE534004578FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				299DFDC21D8FE202004578FC /* main.cpp in Sources */,
+				299DFDD61D8FE534004578FC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		299DFDC31D8FE202004578FC /* Debug */ = {
+		299DFDD71D8FE534004578FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -170,7 +170,7 @@
 			};
 			name = Debug;
 		};
-		299DFDC41D8FE202004578FC /* Release */ = {
+		299DFDD81D8FE534004578FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,14 +206,14 @@
 			};
 			name = Release;
 		};
-		299DFDC61D8FE202004578FC /* Debug */ = {
+		299DFDDA1D8FE534004578FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		299DFDC71D8FE202004578FC /* Release */ = {
+		299DFDDB1D8FE534004578FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -223,24 +223,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		299DFDB91D8FE202004578FC /* Build configuration list for PBXProject "001.TwoNum" */ = {
+		299DFDCD1D8FE534004578FC /* Build configuration list for PBXProject "001.TwoSum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299DFDC31D8FE202004578FC /* Debug */,
-				299DFDC41D8FE202004578FC /* Release */,
+				299DFDD71D8FE534004578FC /* Debug */,
+				299DFDD81D8FE534004578FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		299DFDC51D8FE202004578FC /* Build configuration list for PBXNativeTarget "001.TwoNum" */ = {
+		299DFDD91D8FE534004578FC /* Build configuration list for PBXNativeTarget "001.TwoSum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				299DFDC61D8FE202004578FC /* Debug */,
-				299DFDC71D8FE202004578FC /* Release */,
+				299DFDDA1D8FE534004578FC /* Debug */,
+				299DFDDB1D8FE534004578FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 299DFDB61D8FE202004578FC /* Project object */;
+	rootObject = 299DFDCA1D8FE534004578FC /* Project object */;
 }

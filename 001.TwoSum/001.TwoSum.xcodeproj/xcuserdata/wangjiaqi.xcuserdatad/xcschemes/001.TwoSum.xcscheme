@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "299DFDBD1D8FE202004578FC"
-               BuildableName = "001.TwoNum"
-               BlueprintName = "001.TwoNum"
-               ReferencedContainer = "container:001.TwoNum.xcodeproj">
+               BlueprintIdentifier = "299DFDD11D8FE534004578FC"
+               BuildableName = "001.TwoSum"
+               BlueprintName = "001.TwoSum"
+               ReferencedContainer = "container:001.TwoSum.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299DFDBD1D8FE202004578FC"
-            BuildableName = "001.TwoNum"
-            BlueprintName = "001.TwoNum"
-            ReferencedContainer = "container:001.TwoNum.xcodeproj">
+            BlueprintIdentifier = "299DFDD11D8FE534004578FC"
+            BuildableName = "001.TwoSum"
+            BlueprintName = "001.TwoSum"
+            ReferencedContainer = "container:001.TwoSum.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299DFDBD1D8FE202004578FC"
-            BuildableName = "001.TwoNum"
-            BlueprintName = "001.TwoNum"
-            ReferencedContainer = "container:001.TwoNum.xcodeproj">
+            BlueprintIdentifier = "299DFDD11D8FE534004578FC"
+            BuildableName = "001.TwoSum"
+            BlueprintName = "001.TwoSum"
+            ReferencedContainer = "container:001.TwoSum.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "299DFDBD1D8FE202004578FC"
-            BuildableName = "001.TwoNum"
-            BlueprintName = "001.TwoNum"
-            ReferencedContainer = "container:001.TwoNum.xcodeproj">
+            BlueprintIdentifier = "299DFDD11D8FE534004578FC"
+            BuildableName = "001.TwoSum"
+            BlueprintName = "001.TwoSum"
+            ReferencedContainer = "container:001.TwoSum.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
